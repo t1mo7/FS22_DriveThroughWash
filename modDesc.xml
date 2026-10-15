@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="72">
+    <author>Timo</author>
+    <version>1.0.1.0</version>
+    <title>
+        <en>Drive-Through Wash</en>
+        <de>Durchfahr-Waschanlage</de>
+        <nl>Doorrij-Wasstraat</nl>
+    </title>
+    <description>
+        <en><![CDATA[Turns every wash station on the map into an automatic drive-through car wash.
+
+Just drive your vehicle (and everything attached to it) through or next to a wash station and it is cleaned automatically - no need to get out and use the pressure washer.
+
+Works with:
+- The base game high pressure washer
+- Any wash bay / washer mod that uses the high pressure washer function
+- Any placeable whose file name contains "wash" (e.g. wash bay mods)
+
+Cleaning takes about 3 seconds. Works in single player and multiplayer (server side).]]></en>
+        <nl><![CDATA[Maakt van elk wasstation op de kaart een automatische doorrij-wasstraat.
+
+Rij met je voertuig (en alles wat eraan hangt) door of langs een wasstation en het wordt automatisch schoongemaakt - je hoeft niet uit te stappen.
+
+Werkt met de hogedrukreiniger uit het basisspel, wasplaats-mods en elke plaatsbare met "wash" in de bestandsnaam.]]></nl>
+    </description>
+    <iconFilename>icon_driveThroughWash.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/DriveThroughWash.lua"/>
+    </extraSourceFiles>
+
+    <l10n>
+        <text name="dtw_vehicleWashed">
+            <en>Vehicle washed</en>
+            <de>Fahrzeug gewaschen</de>
+            <nl>Voertuig gewassen</nl>
+        </text>
+        <text name="dtw_washing">
+            <en>Washing vehicle...</en>
+            <de>Fahrzeug wird gewaschen...</de>
+            <nl>Voertuig wordt gewassen...</nl>
+        </text>
+    </l10n>
+</modDesc>
